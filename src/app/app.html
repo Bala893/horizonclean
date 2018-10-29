@@ -1,4 +1,4 @@
-<ion-menu [content]="content">
+<ion-menu [content]="content" side="left">
   <ion-header>
     <ion-toolbar>
       <ion-title>Menu</ion-title>
@@ -11,6 +11,19 @@
         {{p.title}}
       </button>
     </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<ion-menu [content]="content" side="right">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    Best Rated
   </ion-content>
 
 </ion-menu>

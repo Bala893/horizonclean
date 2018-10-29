@@ -6,6 +6,12 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { SigninPage } from '../pages/signin/signin';
+import { DashboardPage } from '../pages/dashboard/dashboard';
+import { BookingPage } from '../pages/booking/booking';
+import { MybookingPage } from '../pages/mybooking/mybooking';
+import { MyprofilePage } from '../pages/myprofile/myprofile';
+import { AboutusPage } from '../pages/aboutus/aboutus';
+import { MyfavouritePage } from '../pages/myfavourite/myfavourite';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -16,7 +22,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-    SigninPage
+    SigninPage,
+    DashboardPage,
+    BookingPage,
+    MybookingPage,
+    MyprofilePage,
+    AboutusPage,
+    MyfavouritePage
     
   ],
   imports: [
@@ -28,7 +40,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-    SigninPage
+    SigninPage,
+    DashboardPage,
+    BookingPage,
+    MybookingPage,
+    MyprofilePage,
+    AboutusPage,
+    MyfavouritePage
+    
   ],
   providers: [
     StatusBar,

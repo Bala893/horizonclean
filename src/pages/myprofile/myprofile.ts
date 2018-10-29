@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { DashboardPage } from '../../pages/dashboard/dashboard';
 
 /**
- * Generated class for the SigninPage page.
+ * Generated class for the MyprofilePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +10,16 @@ import { DashboardPage } from '../../pages/dashboard/dashboard';
 
 @IonicPage()
 @Component({
-  selector: 'page-signin',
-  templateUrl: 'signin.html',
+  selector: 'page-myprofile',
+  templateUrl: 'myprofile.html',
 })
-export class SigninPage {
+export class MyprofilePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SigninPage');
-  }
-
-  signin(){
-		this.navCtrl.setRoot(DashboardPage);
+    console.log('ionViewDidLoad MyprofilePage');
   }
 
 }
